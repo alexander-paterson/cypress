@@ -1,0 +1,27 @@
+{
+  "name": "cypress_demo",
+  "version": "1.0.0",
+  "description": "Writing UI tests using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-paterson/cypress.git"
+  },
+  "author": "Alex Paterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-paterson/cypress/issues"
+  },
+  "homepage": "https://github.com/alexander-paterson/cypress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
+}
